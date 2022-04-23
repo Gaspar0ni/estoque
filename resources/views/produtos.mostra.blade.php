@@ -6,7 +6,7 @@
 <body>
 <div class="container">
 
-    @dd($id)
+    
     <h1>Listagem de Produtos</h1>
     <table class="table table-striped table-bordered table-hover">
     <tbody>

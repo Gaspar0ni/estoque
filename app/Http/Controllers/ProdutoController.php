@@ -52,7 +52,7 @@ class ProdutoController extends Controller
                 @dd($request->id);
             return "Esse produto não existe";
             }
-            return view('/produtos/mostra/{$id)')->with('p', $resposta[0]);
+            return view('produtos/mostra/',['id'=> $id]);
         }
 
 
